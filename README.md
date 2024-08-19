@@ -222,6 +222,8 @@ _Examples_
    )
 ```
 
+<br>
+
 ### ```integrate_species```
 This is the main integration function that takes the input ```Seurat``` objects from the ```homologize``` function. This means the input will contain different species, but all with a common set of genes. This is essential else integration is not possible. As with ```integrate_samples```, this requires a few default inputs but includes an additional option for selection of an integration method. The options available currently include ```cca``` and ```harmony```, of which ```harmony``` is used as default as it is best at dealing with inter-species batch effects as well as inter-sample batch effects. The output for this function, as with the above ```integrate_samples``` function, is a plot showing the cells in a reduced dimensional view coloured according to sample of origin as well as a single ```Seurat``` object. Please note, as well, that this object is going to be very large as it contains information from all samples across species. 
 
