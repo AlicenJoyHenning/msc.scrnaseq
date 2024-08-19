@@ -1,0 +1,29 @@
+Package: msc.scrnaseq
+Title: Full Single-Cell RNA Sequencing Data Analysis Workflow 
+Version: 1.0.0.0
+Authors@R: 
+    person("Alicen", "Henning", email = "alicen.jhb@gmail.com", role = c("aut", "cre", "cph"))
+Description: 
+    Full suite of data anlaysis functions to get from raw alignment 
+    output of multiple samples to a fully pre-processed Seurat object 
+    containing integrated data from multiple species.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    cowplot,
+    DoubletFinder,
+    DropletQC,
+    dplyr,
+    ggplot2,
+    harmony,
+    Matrix,
+    Seurat,
+    SoupX,
+    stringr,
+    patchwork,
+    purrr
+Remotes:
+    powellgenomicslab/DropletQC
+    
