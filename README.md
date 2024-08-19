@@ -1,9 +1,7 @@
 # msc.scrnaseq
 
 ## Contents
-[🔵 Description](#description)  
-[⚪ Installation](#installation)  
-[🟣 Quickstart](#quickstart)
+[🔵 Description](#description)  [⚪ Installation](#installation)   [🟣 Quickstart](#quickstart)
 
 <br>
 
