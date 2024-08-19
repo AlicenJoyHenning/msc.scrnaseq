@@ -12,7 +12,7 @@
 
 <br>
 
-In the interest of transparent and reproducible science, ```msc.scrnaseq``` was created to not only house all the analysis scripts of this project, but make them executable. This means a user will be able to replicate our core analysis as well as expand upon it. ```msc.scrnaseq``` is made up of the following four functions : 
+In the interest of transparent and reproducible science, ```msc.scrnaseq``` was created to not only house the analysis scripts of this project, but make them executable in any environment. This means a user will be able to replicate our core analysis as well as expand upon it. ```msc.scrnaseq``` is made up of the following four functions : 
 
 * ```preprocess```
 * ```homologize```
