@@ -25,7 +25,7 @@ In the interest of transparent and reproducible science, ```msc.scrnaseq``` was 
 
 ## ⚪ Installation 
 ### Prerequisites
-Our analysis, and in consequence this package, makes use of the following pre-existing packages :
+Our analysis, and in consequence this package, makes use of the following pre-existing packages : <br>
 ```cowplot```, ```DoubletFinder```, ```DropletQC```, ```dplyr```, ```ggplot2```, ```harmony```, ```Matrix```,
 ```Seurat```, ```SoupX```, ```stringr```, ```patchwork```, ```purrr```.
 
