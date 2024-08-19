@@ -33,8 +33,6 @@ Our analysis, and in consequence this package, makes use of the following pre-ex
 
 These must be loaded into your local R environment before installation. This can be done altogether as shown below. 
 
-<br>
-
 ```R
 packages <- c("cowplot", "DoubletFinder", "dplyr", "ggplot2", "harmony", "Matrix", "Seurat", "SoupX", "stringr", "patchwork", "purrr")
 
@@ -51,13 +49,11 @@ for (pkg in packages) {
 
 Please note that ```DropletQC``` needs to be installed from ```GitHub``` using the ```remotes``` package. 
 
-<br>
-
 ```R
 # install.packages("devtools")
 library(devtools)
 devtools::install_github("powellgenomicslab/DropletQC", build_vignettes = TRUE)
-library(DropletQC
+library(DropletQC)
 ```
 
 <br>
