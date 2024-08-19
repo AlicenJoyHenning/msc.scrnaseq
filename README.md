@@ -1,4 +1,6 @@
-# msc.scrnaseq
+<p align="center">
+  <img src="https://github.com/AlicenJoyHenning/msc.scrnaseq/blob/main/inst/extdata/msc.rnaseq.png" alt="limiric_logo" height="54" width="380">
+</p>
 
 ## Contents
 [🔵 Description](#description)  [⚪ Installation](#installation)   [🟣 Quickstart](#quickstart)
