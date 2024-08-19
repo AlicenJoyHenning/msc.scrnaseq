@@ -188,6 +188,8 @@ GSE1234567 <- homologize(sample_list = samples)
 
 ```
 
+<br>
+
 ### ```integrate_samples```
 This is an optional function that uses ```Seurat```'s canonical correlation method to integrate samples of the same species origin. This can be helpful to visualise what cell types are detectable in the context of an individual species with a high level of granularity. This is because integration and clustering is performed on the full set of genes in the organism's genome, rather than being isolated to those that have homologs. The output of this function is a single plot and ```Seurat``` object. This plot shows the reduced form of the integrated samples, with each sample marked in a different colour to confirm the absence of sample-specific batch effects, in a UMAP alongside the visualisation of marker genes. The ```Seurat``` object contains the integrated data from all input samples. Please note that, depending on how many samples are added as input, this is likely going to be a _large_ object. 
 
