@@ -45,16 +45,15 @@ for (pkg in packages) {
 
 ```
 
-<br>
-
-Please note that ```DropletQC``` needs to be installed from ```GitHub``` using the ```remotes``` package. 
-
-```R
-# install.packages("devtools")
-library(devtools)
-devtools::install_github("powellgenomicslab/DropletQC", build_vignettes = TRUE)
-library(DropletQC)
-```
+> However, ```DropletQC``` needs to be installed from ```GitHub``` using the ```remotes``` package. 
+>
+> ```R
+> # install.packages("devtools")
+> library(devtools)
+> devtools::install_github("powellgenomicslab/DropletQC", build_vignettes = TRUE)
+> library(DropletQC)
+> ```
+> 
 
 <br>
 
