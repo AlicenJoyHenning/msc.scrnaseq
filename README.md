@@ -100,13 +100,13 @@ output_dir/
 
 ####     _Inputs_
 
-| **Parameter**      | **Default/Required** | **Description**                                                                                           |
-|--------------------|----------------------|-----------------------------------------------------------------------------------------------------------|
-| **project_name**   | Required             | String with project or sample name.                                                                        |
-| **organism**       | Required             | String with one of the following Mmul, Hsap, Mmus.                                                         |
-| **ptprc_threshold**| Required             | Percentage CD45 over which cells will be retained. E.g: If 0, all cells must express CD45                  |
-| **filtered_path**  | Required             | Directory of filtered alignment output, matrix.mtx.gz, features.tsv.gz, barcodes.tsv.gz.                   |
-| **raw_path**       | Required             | Directory of raw alignment output, matrix.mtx.gz, features.tsv.gz, barcodes.tsv.gz.                        |
+| **Parameter**      | **Default/Required** | **Description**                                                                                             |
+|--------------------|----------------------|-----------------------------------------------------------------------------------------------------------  |
+| **project_name**   | Required             | String with project or sample name.                                                                         |
+| **organism**       | Required             | String with one of the following Mmul, Hsap, Mmus.                                                          |
+| **ptprc_threshold**| Default: 0            | Percentage CD45 over which cells will be retained. E.g: If 0, all cells must express CD45                  |
+| **filtered_path**  | Required             | Directory of filtered alignment output, matrix.mtx.gz, features.tsv.gz, barcodes.tsv.gz.                    |
+| **raw_path**       | Reuired             | Directory of raw alignment output, matrix.mtx.gz, features.tsv.gz, barcodes.tsv.gz.                          |
 | **velocyto_path**  | Required             | Directory of Velocyto filtered alignment output, spliced.mtx.gz, unspliced.mtx.gz, ambiguous.mtx.gz, features.tsv.gz, barcodes.tsv.gz. |
 | **filter_damaged** | Default: TRUE        | Should output contain no damaged cells.                                                  |
 | **output_dir**     | Required             | Directory where preprocess_core output should be generated.                                                |
@@ -152,8 +152,8 @@ output_dir/
 ```
 
 ####     _Inputs_
-| **Parameter**      | **Default/Required** | **Description**                                                                                           |
-|--------------------|----------------------|-----------------------------------------------------------------------------------------------------------|
+| **Parameter**      | **Default/Required** | **Description**                                                                                            |
+|--------------------|----------------------|----------------------------------------------------------------------------------------------------------- |
 | **project_name**   | Required             | String with project or sample name.                                                                        |
 | **seurat_dir**     | Required             | Path to the Seurat object used as input.                                                                   |
 | **organism_in**    | Required             | Organism of the input Seurat object (Hsap, Mmul, Mmus)                                                     |
