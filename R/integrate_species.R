@@ -4,7 +4,7 @@
 #'
 #' @param project_name String with project name.
 #' @param organism Organism that all samples gene annotations conform to.
-#' @param sample_list Required list of directories for input Seurat objects.
+#' @param sample_list Required list of directories for input 'Seurat' objects.
 #' @param method Integration method to use, either CCA or harmony, default is harmony.
 #' @param output_dir Directory where integrate_species output should be generated.
 #'
