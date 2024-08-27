@@ -1,6 +1,6 @@
-#' @name homologize_core
+#' @name homologize
 #'
-#' @title Homologize Core Function
+#' @title Homologize Function
 #'
 #' @description
 #'    Helper function responsible for converting genes in a 'Seurat' object
