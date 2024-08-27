@@ -3,12 +3,12 @@
 #' @title Homologize Core Function
 #'
 #' @description
-#'    Helper function responsible for converting genes in a Seurat object
+#'    Helper function responsible for converting genes in a 'Seurat' object
 #'    to homologous genes from another organism.
 #'
 #' @param project_name String with project or sample name.
-#' @param seurat_dir Path to the Seurat object used as input
-#' @param organism_in Organism of the input Seurat object (Hsap, Mmul, Mmus)
+#' @param seurat_dir Path to the 'Seurat' object used as input
+#' @param organism_in Organism of the input 'Seurat' object (Hsap, Mmul, Mmus)
 #' @param organism_out Organism for which gene homologs must be found
 #' @param check_umap Whether or not marker umaps shoudl be generated. Default is TRUE.
 #' @param output_dir Directory where homologize_core output should be generated.
