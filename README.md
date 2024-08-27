@@ -85,7 +85,7 @@ To ensure the package has installed correctly, run the following to see if you c
 
 ## 🟣 Quickstart 
 ### ```preprocess```
-This function is responsible for the heavy lifting preprocessing work. This includes ambient RNA correction with ```SoupX```, removing red blood cells, isolating immune cells, filtering damaged cells detected by ```DropletQC``` and ```limiric```, and filtering doublets detected by ```DoubletFinder```. It also provides a preliminary check of sample quality by immune cell marker visualisation (UMAP). Running this function requires the inputs mentioned below and will deposit outputs, including diagnostic plots and processed ```Seurat``` object, in the following directory structure.  
+This function is responsible for the main preprocessing work. This includes ambient RNA correction with ```SoupX```, removing red blood cells, isolating immune cells, filtering damaged cells detected by ```DropletQC``` and ```limiric```, and filtering doublets detected by ```DoubletFinder```. It also provides a preliminary check of sample quality by immune cell marker visualisation (UMAP). Running this function requires the inputs mentioned below and will deposit outputs, including diagnostic plots and processed ```Seurat``` object, in the following directory structure.  
 
 ```
 output_dir/
