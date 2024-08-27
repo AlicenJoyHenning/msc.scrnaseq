@@ -4,9 +4,9 @@
 #'
 #' @description
 #'    Function responsible for heavy lifting preprocessing work.
-#'    This includes ambient RNA correction with SoupX, removing red blood cells,
-#'    isolating immune cells, filtering damaged cells detected by DropletQC and
-#'    limiric, and filtering doublets detected by DoubletFinder. Also provided
+#'    This includes ambient RNA correction with 'SoupX', removing red blood cells,
+#'    isolating immune cells, filtering damaged cells detected by 'DropletQC' and
+#'    limiric, and filtering doublets detected by 'DoubletFinder'. Also provided
 #'    is preliminary check of sample quality by immune cell marker visualisation (UMAP).
 #'
 #'
