@@ -4,7 +4,7 @@
 #'
 #' @param project_name String with project name.
 #' @param organism Which organism do all inputs belong to, either Hsap, Mmul, or Mmus.
-#' @param sample_list Required list of directories for input Seurat objects.
+#' @param sample_list Required list of directories for input 'Seurat' objects.
 #' @param output_dir Directory where integrate_samples output should be generated.
 #'
 #' @return Single, integrated Seurat object
